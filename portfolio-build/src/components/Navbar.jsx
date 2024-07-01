@@ -67,7 +67,7 @@ const Navbar = () => {
                 <div>
                     <ul className='text-sm uppercase hover:border-b'>
                         <li className='my-4'>
-                            <Link href='/home' className='menuItem'>Home</Link>
+                            <Link href='/home' onClick={() => setShowMenu(false)} className='menuItem'>Home</Link>
                         </li>
                         <li className='my-4'>
                             <Link href='/about' onClick={() => setShowMenu(false)} className='menuItem'>About</Link>
