@@ -1,14 +1,11 @@
-import React from "react";
-import Head from "next/head";
-import Navbar from "../components/Navbar";
+'use client';
+import React, { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Mansher | Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    </div>
-  );
+  const router = useRouter();
+  useEffect (() => {
+    router.push("/home");
+  },[])
+  return ;
 }
