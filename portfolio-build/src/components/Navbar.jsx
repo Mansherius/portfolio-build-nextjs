@@ -21,7 +21,6 @@ const Navbar = () => {
   }, []);
 
   const textColorClass = isDarkMode ? 'text-white' : 'text-black';
-
   const backgroundColorClass = isDarkMode ? 'bg-black' : 'bg-white';
 
   const handleNav = () => {
@@ -29,27 +28,27 @@ const Navbar = () => {
   };
 
   return (
-    <div className='w-full h-20 shadow-xl z-[100] bg-transparent rounded-md border border-cyan-500'>
-      <div className='flex justify-between items-center w-full h-full px-2 pl-4'>
+    <div className='w-full h-20 z-[100]'>
+      <div className='sticky flex justify-between items-center w-100 h-full px-2 pl-4 bg-transparent shadow-xl rounded-full m-4'>
         <Link href='/home'>
-        <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
+          <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
         </Link>
         <div>
           <ul className='hidden md:flex'>
-            <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
               <Link href='/home'>Home</Link>
             </li>
-            <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/about' >About</Link>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+              <Link href='/about'>About</Link>
             </li>
-            <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/resume' >Resume</Link>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+              <Link href='/resume'>Resume</Link>
             </li>
-            <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/projects' >Projects</Link>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+              <Link href='/projects'>Projects</Link>
             </li>
-            <li className={`ml-10 mr-2 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/contact' >Contact</Link>
+            <li className={`ml-10 mr-2 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+              <Link href='/contact'>Contact</Link>
             </li>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
@@ -58,8 +57,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={showMenu ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-        <div className={showMenu ? `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen ${backgroundColorClass} p-10 ease-in duration-300` : 'fixed left-[-100%] top-0 ease-in duration-300'}>
+      <div className={showMenu ? 'fixed inset-0 bg-black/70 md:hidden' : ''}>
+        <div className={showMenu ? `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen ${backgroundColorClass} p-10 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen ${backgroundColorClass} p-10 ease-in-out duration-1000 transform -translate-x-full`}>
           <div className='flex w-full justify-between items-center'>
             <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
             <div onClick={handleNav} className='rounded-full shadow-lg p-3 cursor-pointer'>
@@ -70,20 +69,20 @@ const Navbar = () => {
             <p className='md:w-full py-4'>You should be hiring me now</p>
           </div>
           <div>
-            <ul className='text-sm uppercase hover:border-b'>
-              <li className='my-4'>
+            <ul className='text-sm uppercase'>
+              <li className='my-4 hover:border-b border-[#ff00ff]'>
                 <Link href='/home' onClick={() => setShowMenu(false)}>Home</Link>
               </li>
-              <li className='my-4'>
+              <li className='my-4 hover:border-b border-[#ff00ff]'>
                 <Link href='/about' onClick={() => setShowMenu(false)}>About</Link>
               </li>
-              <li className='my-4'>
+              <li className='my-4 hover:border-b border-[#ff00ff]'>
                 <Link href='/resume' onClick={() => setShowMenu(false)}>Resume</Link>
               </li>
-              <li className='my-4'>
+              <li className='my-4 hover:border-b border-[#ff00ff]'>
                 <Link href='/projects' onClick={() => setShowMenu(false)}>Projects</Link>
               </li>
-              <li className='my-4'>
+              <li className='my-4 hover:border-b border-[#ff00ff]'>
                 <Link href='/contact' onClick={() => setShowMenu(false)}>Contact</Link>
               </li>
             </ul>
