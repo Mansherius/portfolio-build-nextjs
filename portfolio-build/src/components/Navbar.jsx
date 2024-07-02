@@ -31,23 +31,25 @@ const Navbar = () => {
   return (
     <div className='w-full h-20 shadow-xl z-[100] bg-transparent rounded-md border border-cyan-500'>
       <div className='flex justify-between items-center w-full h-full px-2 pl-4'>
+        <Link href='/home'>
         <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
+        </Link>
         <div>
           <ul className='hidden md:flex'>
             <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/home' className='menuItem'>Home</Link>
+              <Link href='/home'>Home</Link>
             </li>
             <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/about' className='menuItem'>About</Link>
+              <Link href='/about' >About</Link>
             </li>
             <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/resume' className='menuItem'>Resume</Link>
+              <Link href='/resume' >Resume</Link>
             </li>
             <li className={`ml-10 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/projects' className='menuItem'>Projects</Link>
+              <Link href='/projects' >Projects</Link>
             </li>
             <li className={`ml-10 mr-2 uppercase text-sm hover:border-b border-[#ff00ff] ${textColorClass}`}>
-              <Link href='/contact' className='menuItem'>Contact</Link>
+              <Link href='/contact' >Contact</Link>
             </li>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
@@ -70,19 +72,19 @@ const Navbar = () => {
           <div>
             <ul className='text-sm uppercase hover:border-b'>
               <li className='my-4'>
-                <Link href='/home' onClick={() => setShowMenu(false)} className={`menuItem ${textColorClass}`}>Home</Link>
+                <Link href='/home' onClick={() => setShowMenu(false)}>Home</Link>
               </li>
               <li className='my-4'>
-                <Link href='/about' onClick={() => setShowMenu(false)} className={`menuItem ${textColorClass}`}>About</Link>
+                <Link href='/about' onClick={() => setShowMenu(false)}>About</Link>
               </li>
               <li className='my-4'>
-                <Link href='/resume' onClick={() => setShowMenu(false)} className={`menuItem ${textColorClass}`}>Resume</Link>
+                <Link href='/resume' onClick={() => setShowMenu(false)}>Resume</Link>
               </li>
               <li className='my-4'>
-                <Link href='/projects' onClick={() => setShowMenu(false)} className={`menuItem ${textColorClass}`}>Projects</Link>
+                <Link href='/projects' onClick={() => setShowMenu(false)}>Projects</Link>
               </li>
               <li className='my-4'>
-                <Link href='/contact' onClick={() => setShowMenu(false)} className={`menuItem ${textColorClass}`}>Contact</Link>
+                <Link href='/contact' onClick={() => setShowMenu(false)}>Contact</Link>
               </li>
             </ul>
             <div className='pt-40'>
