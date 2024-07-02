@@ -1,0 +1,69 @@
+/* components/Icon.module.css */
+.icon {
+    width: 5.625rem;
+    height: 3.222rem;
+    border-radius: 9999px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition: all 0.2s;
+    z-index: 1; /* Ensure the icon is on top */
+  }
+  
+  .icon > svg {
+    position: absolute;
+    z-index: 2; /* Ensure the icon is on top */
+  }
+  
+  .icon:hover > svg {
+    transform: scale(1.2);
+    color: #f1f1f1;
+  }
+  
+  .icon::before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+    z-index: 0; /* Ensure the background is behind the icon */
+  }
+  
+  .icon:hover::before {
+    animation: slide 0.7s forwards;
+  }
+  
+  @keyframes slide {
+    50% {
+      left: 10%;
+      top: -40%;
+    }
+    100% {
+      left: -15%;
+      top: -15%;
+    }
+  }
+  
+  .icon-linkedin::before {
+    --color: #0077b5;
+  }
+  
+  .icon-github::before {
+    --color: #333;
+  }
+  
+  .icon-envelope::before {
+    --color: #d14836; /* Example color */
+  }
+  
+  .icon-person::before {
+    --color: #1da1f2; /* Example color */
+  }
+  

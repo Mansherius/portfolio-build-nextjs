@@ -20,9 +20,7 @@
     button {
         @apply shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-tr from-indigo-500 to-purple-900 text-yellow-500;
     }
-    .menuItem {
-        @apply text-black;
-        hover: scale-110;
-    }
 }
-
+.menuItem {
+    @apply text-black;
+}
