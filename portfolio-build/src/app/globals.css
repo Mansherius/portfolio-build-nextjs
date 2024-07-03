@@ -49,7 +49,4 @@
     li {
         @apply cursor-pointer;
     }
-    button {
-        @apply shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-tr from-indigo-500 to-purple-900 text-yellow-500;
-    }
 }

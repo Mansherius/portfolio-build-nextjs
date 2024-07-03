@@ -35,19 +35,19 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className='hidden md:flex'>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
               <Link href='/home'>Home</Link>
             </li>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
               <Link href='/about'>About</Link>
             </li>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
               <Link href='/projects'>Projects</Link>
             </li>
-            <li className={`ml-10 mr-2 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
+            <li className={`ml-10 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
               <Link href='/contact'>Contact</Link>
             </li>
           </ul>
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       <div className={showMenu ? 'fixed inset-0 bg-black/70 md:hidden' : ''}>
-        <div className={showMenu ? `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen ${backgroundColorClass} p-10 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen ${backgroundColorClass} p-10 ease-in-out duration-1000 transform -translate-x-full`}>
+        <div className={showMenu ? `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen ${backgroundColorClass} p-10 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen bg-transparent p-10 ease-in-out duration-1000 transform -translate-x-full`}>
           <div className='flex w-full justify-between items-center'>
             <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
             <div onClick={handleNav} className='rounded-full shadow-lg p-3 cursor-pointer'>
@@ -70,19 +70,19 @@ const Navbar = () => {
           </div>
           <div>
             <ul className='text-sm uppercase'>
-              <li className='my-4 hover:border-b border-teal-500'>
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
                 <Link href='/home' onClick={() => setShowMenu(false)}>Home</Link>
               </li>
-              <li className='my-4 hover:border-b border-teal-500'>
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
                 <Link href='/about' onClick={() => setShowMenu(false)}>About</Link>
               </li>
-              <li className='my-4 hover:border-b border-teal-500'>
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
                 <Link href='/resume' onClick={() => setShowMenu(false)}>Resume</Link>
               </li>
-              <li className='my-4 hover:border-b border-teal-500'>
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
                 <Link href='/projects' onClick={() => setShowMenu(false)}>Projects</Link>
               </li>
-              <li className='my-4 hover:border-b border-teal-500'>
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
                 <Link href='/contact' onClick={() => setShowMenu(false)}>Contact</Link>
               </li>
             </ul>

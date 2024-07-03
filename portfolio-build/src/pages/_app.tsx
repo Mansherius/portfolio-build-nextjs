@@ -2,7 +2,6 @@ import Navbar from '@/components/Navbar';
 import '@/app/globals.css';
 import { Metadata } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: "Mansher Singh | Portfolio",
