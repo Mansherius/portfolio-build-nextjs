@@ -8,8 +8,8 @@
     align-items: center;
     overflow: hidden;
     position: relative;
-    box-shadow: 2px 2px 11px #ad0096,
-    -2px -2px 11px #ff00ff;
+    box-shadow: 2px 2px 11px #0fb3b1,
+    -2px -2px 11px #15f3ef;
     transition: all 0.2s;
     z-index: 1; /* Ensure the icon is on top */
   }

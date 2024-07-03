@@ -20,8 +20,8 @@ const Navbar = () => {
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
 
-  const textColorClass = isDarkMode ? 'text-white' : 'text-black';
-  const backgroundColorClass = isDarkMode ? 'bg-black' : 'bg-white';
+  const textColorClass = isDarkMode ? 'text-white' : 'text-black-100';
+  const backgroundColorClass = isDarkMode ? 'bg-black-100' : 'bg-white';
 
   const handleNav = () => {
     setShowMenu(!showMenu);
@@ -29,25 +29,25 @@ const Navbar = () => {
 
   return (
     <div className='w-full h-20 z-[100]'>
-      <div className='sticky flex justify-between items-center w-100 h-full px-2 pl-4 bg-transparent shadow-xl rounded-full m-4'>
+      <div className='sticky flex justify-between items-center w-100 h-full px-2 pl-4 bg-transparent shadow-lg shadow-teal-400 rounded-full m-4'>
         <Link href='/home'>
           <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
         </Link>
         <div>
           <ul className='hidden md:flex'>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
               <Link href='/home'>Home</Link>
             </li>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
               <Link href='/about'>About</Link>
             </li>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+            <li className={`ml-10 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
               <Link href='/projects'>Projects</Link>
             </li>
-            <li className={`ml-10 mr-2 uppercase text-l tracking-widest hover:border-b border-[#ff00ff] ${textColorClass}`}>
+            <li className={`ml-10 mr-2 uppercase text-l tracking-widest hover:border-b border-teal-500 ${textColorClass}`}>
               <Link href='/contact'>Contact</Link>
             </li>
           </ul>
@@ -70,19 +70,19 @@ const Navbar = () => {
           </div>
           <div>
             <ul className='text-sm uppercase'>
-              <li className='my-4 hover:border-b border-[#ff00ff]'>
+              <li className='my-4 hover:border-b border-teal-500'>
                 <Link href='/home' onClick={() => setShowMenu(false)}>Home</Link>
               </li>
-              <li className='my-4 hover:border-b border-[#ff00ff]'>
+              <li className='my-4 hover:border-b border-teal-500'>
                 <Link href='/about' onClick={() => setShowMenu(false)}>About</Link>
               </li>
-              <li className='my-4 hover:border-b border-[#ff00ff]'>
+              <li className='my-4 hover:border-b border-teal-500'>
                 <Link href='/resume' onClick={() => setShowMenu(false)}>Resume</Link>
               </li>
-              <li className='my-4 hover:border-b border-[#ff00ff]'>
+              <li className='my-4 hover:border-b border-teal-500'>
                 <Link href='/projects' onClick={() => setShowMenu(false)}>Projects</Link>
               </li>
-              <li className='my-4 hover:border-b border-[#ff00ff]'>
+              <li className='my-4 hover:border-b border-teal-500'>
                 <Link href='/contact' onClick={() => setShowMenu(false)}>Contact</Link>
               </li>
             </ul>
