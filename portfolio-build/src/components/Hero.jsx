@@ -7,8 +7,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 function Hero() {
   return (
-    <div className='w-full h-screen text-center'>
-        <div className='w-full h-full m-auto p-2 pb-40 flex flex-col justify-center items-center'>
+    <div className='w-full h-[100%] text-center'>
+        <div className='w-full h-full m-auto pt-[60px] px-6 pb-40 flex flex-col justify-center items-center'>
             <div className='md:mt-60'>
                 <h1 className='sm:text-4xl md:text-5xl tracking-wider'> Hi, I'm <span className=' text-teal-400'>Mansher</span></h1>
             </div>

@@ -28,8 +28,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className='w-full h-20 z-[100]'>
-      <div className='flex justify-between items-center w-100 h-full px-2 pl-4 bg-black-100 shadow-lg shadow-teal-400 rounded-full m-4'>
+    <div className='w-full h-20 z-[100] sticky top-8 '>
+      <div className='flex justify-between items-center h-full px-2 pl-4 bg-black-100 shadow-lg shadow-teal-400 rounded-full m-4'>
         <Link href='/home'>
           <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
         </Link>
@@ -39,16 +39,16 @@ const Navbar = () => {
               <Link href='/home'>Home</Link>
             </li>
             <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
-              <Link href='/about'>About</Link>
+              <Link href='/'>About</Link>
             </li>
             <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
-              <Link href='/resume'>Resume</Link>
+              <Link href='/'>Resume</Link>
             </li>
             <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
-              <Link href='/projects'>Projects</Link>
+              <Link href='/'>Projects</Link>
             </li>
             <li className={`ml-10 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
-              <Link href='/contact'>Contact</Link>
+              <Link href='/'>Contact</Link>
             </li>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       <div className={showMenu ? 'fixed inset-0 bg-black/70 md:hidden' : ''}>
-        <div className={showMenu ? `fixed left-0 top-0 sm:w-[100%] md:w-[50%]  h-screen ${backgroundColorClass} p-4 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 sm:w-[100%] md:w-[50%] h-screen bg-transparent p-4 ease-in-out duration-1000 transform -translate-x-full`}>
+        <div className={showMenu ? `fixed left-0 top-0 h-screen ${backgroundColorClass} p-4 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 h-screen bg-transparent p-4 ease-in-out duration-1000 transform -translate-x-full`}>
           <div className='flex w-full justify-between items-center'>
             <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
             <div onClick={handleNav} className='rounded-full shadow-lg p-3 cursor-pointer'>
@@ -66,7 +66,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className='border-b border-grey my-4'>
-            <p className='md:w-full py-4'>You should be hiring me now</p>
+            <p className='py-4'>You should be hiring me now</p>
           </div>
           <div>
             <ul className='text-sm uppercase'>
@@ -88,7 +88,7 @@ const Navbar = () => {
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-blue-800 font-bold'>Let's Connect</p>
-              <div className='flex justify-around items-center gap-[2rem] my-4'>
+              <div className='flex sm:justify-around md:justify-evenly md:mx-auto items-center gap-[2rem] my-4'>
                   <div className={`${styles.icon} ${styles['icon-linkedin']}`}>
                     <FaLinkedinIn size={25} />
                   </div>
