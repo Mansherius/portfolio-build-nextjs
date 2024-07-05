@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       <div className={showMenu ? 'fixed inset-0 bg-black/70 md:hidden' : ''}>
-        <div className={showMenu ? `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen ${backgroundColorClass} p-10 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 w-[70%] sm:w-[65%] md:w-[50%] h-screen bg-transparent p-10 ease-in-out duration-1000 transform -translate-x-full`}>
+        <div className={showMenu ? `fixed left-0 top-0 sm:w-[100%] md:w-[50%]  h-screen ${backgroundColorClass} p-4 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 sm:w-[100%] md:w-[50%] h-screen bg-transparent p-4 ease-in-out duration-1000 transform -translate-x-full`}>
           <div className='flex w-full justify-between items-center'>
             <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
             <div onClick={handleNav} className='rounded-full shadow-lg p-3 cursor-pointer'>
@@ -88,10 +88,10 @@ const Navbar = () => {
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-blue-800 font-bold'>Let's Connect</p>
-              <div className='flex justify-center items-center gap-[2rem] my-4 sm:w-[80%]'>
-                <div className={`${styles.icon} ${styles['icon-linkedin']}`}>
-                  <FaLinkedinIn size={25} />
-                </div>
+              <div className='flex justify-around items-center gap-[2rem] my-4'>
+                  <div className={`${styles.icon} ${styles['icon-linkedin']}`}>
+                    <FaLinkedinIn size={25} />
+                  </div>
                 <div className={`${styles.icon} ${styles['icon-github']}`}>
                   <FaGithub size={25} />
                 </div>
