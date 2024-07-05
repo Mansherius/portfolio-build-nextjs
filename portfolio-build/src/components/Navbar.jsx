@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div className='w-full h-20 z-[100]'>
-      <div className='sticky flex justify-between items-center w-100 h-full px-2 pl-4 bg-transparent shadow-lg shadow-teal-400 rounded-full m-4'>
+      <div className='flex justify-between items-center w-100 h-full px-2 pl-4 bg-black-100 shadow-lg shadow-teal-400 rounded-full m-4'>
         <Link href='/home'>
           <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
         </Link>
