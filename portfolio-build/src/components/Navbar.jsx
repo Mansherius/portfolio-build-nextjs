@@ -28,8 +28,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className='w-full h-20 z-[100] sticky top-8 '>
-      <div className='flex justify-between items-center h-full px-2 pl-4 bg-black-100 shadow-lg shadow-teal-400 rounded-full m-4'>
+    <div className='w-full h-20 z-[100] sticky top-8'>
+      <div className='flex justify-between items-center h-full px-4 bg-black-100 shadow-lg shadow-teal-400 rounded-full m-4'>
         <Link href='/home'>
           <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
         </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <Link href='/'>Contact</Link>
             </li>
           </ul>
-          <div onClick={handleNav} className='md:hidden'>
+          <div onClick={handleNav} className='md:hidden pr-2'>
             <AiOutlineMenu size={25} />
           </div>
         </div>
