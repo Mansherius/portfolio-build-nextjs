@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { SiLeetcode } from "react-icons/si";
 import styles from './Icons.module.css';
 
 const Navbar = () => {
@@ -96,10 +96,10 @@ const Navbar = () => {
                   <FaGithub size={25} />
                 </div>
                 <div className={`${styles.icon} ${styles['icon-envelope']}`}>
-                  <FaEnvelope size={25} />
+                  <FaEnvelope size={24} />
                 </div>
-                <div className={`${styles.icon} ${styles['icon-person']}`}>
-                  <BsFillPersonLinesFill size={25} />
+                <div className={`${styles.icon} ${styles['icon-leet']}`}>
+                  <SiLeetcode size={25} />
                 </div>
               </div>
             </div>

@@ -60,10 +60,10 @@
   }
   
   .icon-envelope::before {
-    --color: #d14836; /* Example color */
+    --color: #d14836;
   }
   
-  .icon-person::before {
-    --color: #1da1f2; /* Example color */
+  .icon-leet::before {
+    --color: #ff7b00;
   }
   

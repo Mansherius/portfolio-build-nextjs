@@ -3,8 +3,7 @@ import { TextGenerateEffect } from './ui/textGenEffect';
 import { Spotlight } from "@/components/ui/Spotlight";
 import styles from './Icons.module.css';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Highlight } from './ui/hero-highlight';
+import { SiLeetcode } from "react-icons/si";
 
 function Hero() {
   return (
@@ -19,7 +18,7 @@ function Hero() {
               <Spotlight className='top-28 left-80 w-50vw h-80vh' fill="blue"/>
             </div>
             <TextGenerateEffect className='sm:text-2xl md:text-4xl text-center' words='Budding Software Engineer and Full-stack Developer'/>
-            <p className='text-gray-500 sm:text-xl md:text-2xl text-center sm:max-w-[70%] md:max-w-[80%] pt-4'> As an undergraduate in Computer Science (Hons.) based in Bangalore, India,<br /> I am currently devoted to learning <Highlight><span className='text-teal-400'>Full-Stack Web Dev</span></Highlight> </p>
+            <p className='text-gray-500 sm:text-xl md:text-2xl text-center sm:max-w-[70%] md:max-w-[80%] pt-4'> As an undergraduate in Computer Science (Hons.) based in Bangalore, India,<br /> I am currently devoted to learning <span className='text-teal-400 font-bold'>Full-Stack Web Dev</span></p>
             <div className='mt-[100px]'>
               <p className='uppercase tracking-widest text-teal-500 font-bold'>Let's Connect</p>
               <div className='flex justify-around items-center gap-[2rem] my-4'>
@@ -30,10 +29,10 @@ function Hero() {
                   <FaGithub size={25} />
                 </div>
                 <div className={`${styles.icon} ${styles['icon-envelope']}`}>
-                  <FaEnvelope size={25} />
+                  <FaEnvelope size={24} />
                 </div>
-                <div className={`${styles.icon} ${styles['icon-person']}`}>
-                  <BsFillPersonLinesFill size={25} />
+                <div className={`${styles.icon} ${styles['icon-leet']}`}>
+                  <SiLeetcode size={25} />
                 </div>
               </div>
             </div>
