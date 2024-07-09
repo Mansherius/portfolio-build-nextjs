@@ -36,9 +36,9 @@ const About = () => {
     const updateClasses = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth < 640) {
-        setDivClasses("flex flex-col-reverse justify-evenly");
+        setDivClasses("flex flex-col-reverse justify-evenly mx-6");
       } else if (screenWidth >= 640 && screenWidth <= 1160) {
-        setDivClasses("flex flex-col-reverse justify-evenly");
+        setDivClasses("flex flex-col-reverse justify-evenly mx-auto");
       } else {
         setDivClasses("flex justify-evenly");
       }
