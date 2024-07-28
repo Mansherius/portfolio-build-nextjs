@@ -39,13 +39,10 @@ const Navbar = () => {
               <Link href='/home'>Home</Link>
             </li>
             <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
-              <Link href='/'>About</Link>
+              <Link href='/resume'>Resume</Link>
             </li>
             <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
-              <Link href='/'>Resume</Link>
-            </li>
-            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
-              <Link href='/'>Projects</Link>
+              <Link href='/projects'>Projects</Link>
             </li>
             <li className={`ml-10 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-teal-500 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`}>
               <Link href='/'>Contact</Link>
@@ -72,9 +69,6 @@ const Navbar = () => {
             <ul className='text-sm uppercase'>
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
                 <Link href='/home' onClick={() => setShowMenu(false)}>Home</Link>
-              </li>
-              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
-                <Link href='/about' onClick={() => setShowMenu(false)}>About</Link>
               </li>
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-teal-500 hover:transform hover:translate-y-[-2px] transition-transform duration-200'>
                 <Link href='/resume' onClick={() => setShowMenu(false)}>Resume</Link>

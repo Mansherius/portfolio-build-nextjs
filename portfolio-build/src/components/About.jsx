@@ -2,7 +2,7 @@ import React from "react";
 import { CardContainer, CardBody, CardItem } from "./ui/card3D";
 import Image from "next/image";
 import Link from "next/link";
-import IconCloud from "./ui/iconCloud";
+import IconCloud from "./ui/IconCloud";
 import { useState, useEffect } from "react";
 
 const About = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextGenerateEffect } from './ui/textGenEffect';
+import { TextGenerateEffect } from './ui/TextGenEffect';
 import { Spotlight } from "@/components/ui/Spotlight";
 import styles from './Icons.module.css';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';

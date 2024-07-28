@@ -2,7 +2,9 @@ import React from 'react'
 
 function Resume() {
   return (
-    <div>this is the page where</div>
+    <div>
+      <h1>this is the page where the resume will go</h1>
+    </div>
   )
 }
 

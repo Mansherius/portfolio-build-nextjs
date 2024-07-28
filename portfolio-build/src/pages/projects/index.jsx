@@ -1,9 +1,11 @@
 import React from 'react'
 
-const index = () => {
+const Projects = () => {
   return (
-    <div>index</div>
+    <div>
+      <h1>HERE ARE MY Projects</h1>
+    </div>
   )
 }
 
-export default index
+export default Projects

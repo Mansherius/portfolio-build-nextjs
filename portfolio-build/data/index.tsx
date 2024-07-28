@@ -1,4 +1,31 @@
-  export const projects = [
+export const slugs = [
+  "typescript",
+  "javascript",
+  "react",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "apple",
+  "bandlab",
+  "bootstrap",
+  "tailwindcss",
+  "c",
+  "python",
+  "pytorch",
+  "nextdotjs",
+  "vercel",
+  "cypress",
+  "git",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+];
+
+export const firstRow = slugs.slice(0, slugs.length / 2);
+export const secondRow = slugs.slice(slugs.length / 2); 
+
+
+export const projects = [
     {
       id: 1,
       title: "3D Solar System Planets to Explore",
