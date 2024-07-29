@@ -47,11 +47,11 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 border border-teal-500/[0.5] justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 border border-purple-600 justify-between flex flex-col space-y-4",
         className
       )}
       style={{
-        background: 'linear-gradient(153deg, rgba(4,9,30,1) 34%, rgba(26,18,98,1) 76%)',
+        background: "linear-gradient(153deg, rgba(0,3,25,1) 35%, rgba(2,115,51,1) 76%)",
       }}
     >
       <div className={`${id === 6} && 'flex justify-center h-full`}>
@@ -74,11 +74,11 @@ export const BentoGridItem = ({
           )}
         </div>
 
-        {id === 6 && (
+        {/* {id === 6 && (
           <BackgroundGradientAnimation>
             <div className="absolute z-50 flex items-center justify-center text-white font-bold"/>
           </BackgroundGradientAnimation>
-        )}
+        )} */}
 
           <div className={cn(
             titleClassName, "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"

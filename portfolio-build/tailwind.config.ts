@@ -25,7 +25,14 @@ const config: Config = {
         black: {
           DEFAULT: '#000',
           100: '#000319',
-        }
+        },
+        green: {
+          DEFAULT: '#00FF00',
+          1: '#025939',
+          2: '#027333',
+          3: '#03A63C',
+          4: '#04D939',
+        },
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
