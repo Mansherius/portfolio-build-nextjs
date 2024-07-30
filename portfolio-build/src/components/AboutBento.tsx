@@ -31,16 +31,16 @@ const AbouttBento = () => {
           title="Passionate Developer, tech and fitness enthusiast"
           descriptionTop=""
           className="lg:col-span-2 md:col-span-3 md:row-span-2"
-          imgClassName=""
+          imgClassName="h-full absolute -right-2"
           titleClassName="justify-center"
-          img="/grid.svg"
+          img="/fitness.svg"
           spareImg="/b4.svg"
         />
         <BentoGridItem 
           id={4}
           title="Building a Health and Fitness Tracker app for Android"
           descriptionTop="Upcoming Projects"
-          className="lg:col-span-2 md:col-span-3 md:row-span-1"
+          className="lg:col-span-2 md:col-span-3 md:row-span-2"
           imgClassName="absolute right-0 bottom-0 md:w-96 w-60"
           titleClassName="justify-center md:justify-start lg:justify-center"
           img="/b5.svg"
@@ -48,23 +48,13 @@ const AbouttBento = () => {
         />
         <BentoGridItem 
           id={5}
-          title="Currently building a Fitness Tracker using XYZ"
-          descriptionTop="The Inside Scoop"
+          title="Do you want to start a project together?"
+          descriptionTop="Drop your contact info and I'll get in touch with you"
           className="md:col-span-3 md:row-span-2"
           imgClassName=""
           titleClassName="justify-start"
           img=""
           spareImg="/bg.png"
-        />
-        <BentoGridItem 
-          id={6}
-          title="Do you want to start a project together?"
-          descriptionTop=""
-          className="lg:col-span-2 md:col-span-3 md:row-span-1"
-          imgClassName=""
-          titleClassName="justify-center md:max-w-full max-w-60 text-center"
-          img=""
-          spareImg=""
         />
       </BentoGrid>
     </section>
