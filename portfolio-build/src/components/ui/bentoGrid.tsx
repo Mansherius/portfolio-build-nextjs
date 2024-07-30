@@ -2,6 +2,7 @@ import { cn } from "@/utils/cn";
 import IconCloud from "./IconCloud";
 import { slugs } from "../../../data/index";
 import { VelocityScroll } from "./VelocityScroll";
+import { useState } from "react"; // Import useState for managing button text state
 
 export const BentoGrid = ({
 	className,
@@ -44,6 +45,14 @@ export const BentoGridItem = ({
 	img?: string;
 	spareImg?: string;
 }) => {
+	const [buttonText, setButtonText] = useState("My Email Address"); // State for button text
+
+	const handleCopyEmail = () => {
+		navigator.clipboard.writeText("mansherius@gmail.com");
+		setButtonText("Email copied!");
+		setTimeout(() => setButtonText("My Email Address"), 3000); // Reset button text after 3 seconds
+	};
+
 	return (
 		<div
 			className={cn(
@@ -108,12 +117,18 @@ export const BentoGridItem = ({
 							{descriptionBottom}
 						</div>
 					)}
-          {/* {id === 5 && (
-            
-          )} */}
+          {id === 5 && (
+            <div className="flex justify-center items-center py-4 space-x-4">
+              <button
+                onClick={handleCopyEmail}
+                className="bg-green-3 text-white font-bold py-2 px-4 rounded"
+              >
+                {buttonText}
+              </button>
+            </div>
+          )}
 				</div>
 			</div>
 		</div>
 	);
 };
-
