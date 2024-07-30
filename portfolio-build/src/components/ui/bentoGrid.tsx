@@ -47,7 +47,7 @@ export const BentoGridItem = ({
 	return (
 		<div
 			className={cn(
-				"row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 border border-purple-600 justify-between flex flex-col space-y-4",
+				"row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 justify-between flex flex-col space-y-4",
 				className
 			)}
 			style={{
@@ -55,7 +55,7 @@ export const BentoGridItem = ({
 					"linear-gradient(153deg, rgba(0,3,25,1) 35%, rgba(2,115,51,1) 76%)",
 			}}
 		>
-			<div className={`${id === 6} && 'flex justify-center h-full`}>
+			<div className={`${id === 5 && 'flex justify-center'} h-full`}>
 				<div className="w-full h-full absolute" id="Image">
 					{img && (
 						<img
@@ -86,7 +86,7 @@ export const BentoGridItem = ({
 					)}
 				>
 					{id === 1 && (
-              <div className="absolute -top-7 right-10 sm:w-[30%] md:w-[60%] lg:w-full">
+              <div className="absolute -top-7 right-10 w-[30%] md:w-[60%] lg:w-[80%]">
                 <IconCloud iconSlugs={slugs} />
               </div>
           )}
@@ -108,6 +108,9 @@ export const BentoGridItem = ({
 							{descriptionBottom}
 						</div>
 					)}
+          {/* {id === 5 && (
+            
+          )} */}
 				</div>
 			</div>
 		</div>

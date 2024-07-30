@@ -22,7 +22,7 @@ const AbouttBento = () => {
           descriptionBottom="In my last semester before graduating, I was the Teaching Assistant for the 'Operating Systems' course taught by Prof. Goutam Kumar Paul."
           className="lg:col-span-2 md:col-span-3 md:row-span-2"
           imgClassName="opacity-50"
-          titleClassName="justify-start"
+          titleClassName="justify-center"
           img="/groundBreaker.svg"
           spareImg=""
         />
@@ -49,10 +49,10 @@ const AbouttBento = () => {
         <BentoGridItem 
           id={5}
           title="Do you want to start a project together?"
-          descriptionTop="Drop your contact info and I'll get in touch with you"
+          descriptionTop=""
           className="md:col-span-3 md:row-span-2"
           imgClassName=""
-          titleClassName="justify-start"
+          titleClassName="justify-center"
           img=""
           spareImg="/bg.png"
         />
