@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Hero from "@/components/Hero";
 import AboutBento from "@/components/AboutBento";
+import ProjectCarousel from "@/components/ProjectCarousel";
 
 export default function Home() {
   return (
@@ -10,6 +11,10 @@ export default function Home() {
       <Hero />
       <div id="about"/>
       <AboutBento />
+      <div id="projects"/>
+      <ProjectCarousel />
+      <div id="resume"/>
+      <div id="Contact"/>
     </div>
   );
 }

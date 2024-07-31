@@ -46,11 +46,11 @@ const Navbar = () => {
             <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('about')}>
               About
             </li>
-            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('resume')}>
-              Resume
-            </li>
             <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('projects')}>
               Projects
+            </li>
+            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('resume')}>
+              Resume
             </li>
             <li className={`ml-10 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('contact')}>
               Contact
@@ -78,14 +78,14 @@ const Navbar = () => {
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('home')}>
                 Home
               </li>
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('projects')}>
+                Projects
+              </li>
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('about')}>
                 About
               </li>
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('resume')}>
                 Resume
-              </li>
-              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('projects')}>
-                Projects
               </li>
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('contact')}>
                 Contact
