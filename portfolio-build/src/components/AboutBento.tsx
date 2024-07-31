@@ -3,7 +3,7 @@ import { BentoGrid, BentoGridItem } from '@/components/ui/bentoGrid'
 
 const AbouttBento = () => {
   return (
-    <section className='mt-20' id="Projects">
+    <section className='mt-20'>
       <BentoGrid>
         <BentoGridItem 
           id={1}
