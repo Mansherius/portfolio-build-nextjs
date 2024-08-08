@@ -21,10 +21,6 @@ export const slugs = [
   "visualstudiocode",
 ];
 
-export const firstRow = slugs.slice(0, slugs.length / 2);
-export const secondRow = slugs.slice(slugs.length / 2); 
-
-
 export const projects = [
     {
       id: 1,

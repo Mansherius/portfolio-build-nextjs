@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <div id="about"/>
       <AboutBento />
-      <div id="projects"/>
+      <div className="pt-10" id="projects"/>
       <ProjectCarousel />
       <div id="resume"/>
       <div id="Contact"/>
