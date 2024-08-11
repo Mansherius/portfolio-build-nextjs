@@ -40,19 +40,22 @@ const Navbar = () => {
         <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
         <div>
           <ul className='hidden md:flex'>
-            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('home')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('home')}>
               Home
             </li>
-            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('about')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('about')}>
               About
             </li>
-            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('projects')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('projects')}>
               Projects
             </li>
-            <li className={`ml-10 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('resume')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('experience')}>
+              Experience
+            </li>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('resume')}>
               Resume
             </li>
-            <li className={`ml-10 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('contact')}>
+            <li className={`ml-6 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('contact')}>
               Contact
             </li>
           </ul>
@@ -78,11 +81,14 @@ const Navbar = () => {
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('home')}>
                 Home
               </li>
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('about')}>
+                About
+              </li>
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('projects')}>
                 Projects
               </li>
-              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('about')}>
-                About
+              <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('experience')}>
+                Experience
               </li>
               <li className='uppercase text-lg tracking-widest my-4 hover:border-b border-green-3 hover:transform hover:translate-y-[-2px] transition-transform duration-200' onClick={() => scrollToSection('resume')}>
                 Resume
@@ -94,21 +100,29 @@ const Navbar = () => {
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-green-4 font-bold'>Let's Connect</p>
               <div className='flex sm:justify-around md:justify-evenly md:mx-auto items-center gap-[2rem] my-4'>
-                <div className={`${styles.icon} ${styles['icon-linkedin']}`}>
-                  <FaLinkedinIn size={25} />
-                </div>
+              <a href='https://www.linkedin.com/in/mansherius' target='_blank' rel='noreferrer'>
+                  <div className={`${styles.icon} ${styles['icon-linkedin']}`}>
+                    <FaLinkedinIn size={25} />
+                  </div>
+                </a>
+                <a href='https://github.com/Mansherius' target='_blank' rel='noreferror'>
                 <div className={`${styles.icon} ${styles['icon-github']}`}>
                   <FaGithub size={25} />
                 </div>
+                </a>
+                <a href="mailto: mansherius@gmail.com" target='_blank' rel='noreferror'>
                 <div className={`${styles.icon} ${styles['icon-envelope']}`}>
                   <FaEnvelope size={24} />
                 </div>
+                </a>
+                <a href='https://leetcode.com/mansherius/' target='_blank' rel='noreferrer'>
                 <div className={`${styles.icon} ${styles['icon-leet']}`}>
                   <SiLeetcode size={25} />
                 </div>
+                </a>
               </div>
             </div>
-            <p className='text-sm'>© 2021 Leo. All rights reserved</p>
+            <p className='text-sm'>© 2024 Mansher Singh. All rights reserved</p>
           </div>
         </div>
       </div>

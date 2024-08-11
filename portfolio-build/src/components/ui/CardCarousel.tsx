@@ -15,7 +15,7 @@ import { cn } from "@/utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import Image, { ImageProps } from "next/image";
 import { useOutsideClick } from "@/components/hooks/useOutsideClick";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa6";
 
 interface CarouselProps {
 	items: JSX.Element[];

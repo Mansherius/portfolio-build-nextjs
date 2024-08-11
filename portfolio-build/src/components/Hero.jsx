@@ -22,18 +22,26 @@ function Hero() {
             <div className='mt-[100px]'>
               <p className='uppercase tracking-widest text-green-4 font-bold'>Let's Connect</p>
               <div className='flex justify-around items-center gap-[2rem] my-4'>
+                <a href='https://www.linkedin.com/in/mansherius' target='_blank' rel='noreferrer'>
                   <div className={`${styles.icon} ${styles['icon-linkedin']}`}>
                     <FaLinkedinIn size={25} />
                   </div>
+                </a>
+                <a href='https://github.com/Mansherius' target='_blank' rel='noreferror'>
                 <div className={`${styles.icon} ${styles['icon-github']}`}>
                   <FaGithub size={25} />
                 </div>
+                </a>
+                <a href="mailto: mansherius@gmail.com" target='_blank' rel='noreferror'>
                 <div className={`${styles.icon} ${styles['icon-envelope']}`}>
                   <FaEnvelope size={24} />
                 </div>
+                </a>
+                <a href='https://leetcode.com/mansherius/' target='_blank' rel='noreferrer'>
                 <div className={`${styles.icon} ${styles['icon-leet']}`}>
                   <SiLeetcode size={25} />
                 </div>
+                </a>
               </div>
             </div>
         </div>

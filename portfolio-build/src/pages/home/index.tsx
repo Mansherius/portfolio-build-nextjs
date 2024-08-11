@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import Hero from "@/components/Hero";
 import AboutBento from "@/components/AboutBento";
 import ProjectCarousel from "@/components/ProjectCarousel";
@@ -13,6 +12,7 @@ export default function Home() {
       <AboutBento />
       <div className="pt-10" id="projects"/>
       <ProjectCarousel />
+      <div id="experience"/>
       <div id="resume"/>
       <div id="Contact"/>
     </div>
