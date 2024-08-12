@@ -5,7 +5,7 @@ import styles from './Icons.module.css';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { SiLeetcode } from "react-icons/si";
 import { TypewriterEffectSmooth } from './ui/TypewriterEffect';
-import { TextGenerateEffect } from './ui/TextGenEffect';
+import { TextGenerateEffect } from './ui/textGenEffect';
 
 function Hero() {
   const words = [
