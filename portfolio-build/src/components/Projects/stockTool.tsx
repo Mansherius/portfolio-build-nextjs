@@ -21,7 +21,7 @@ function StockData() {
 							<span className="text-green-4">First</span> project in Machine
 							Learning and Web Development.{" "}
 						</span>
-						The tool utilizes Python's Dash framework for creating an
+						The tool utilizes Python&apos;s Dash framework for creating an
 						interactive web application, complemented by CSS for styling, and an
 						ML model built using scikit-learn (sklearn). The user can input a
 						date range, choose a stock, and specify the number of days to

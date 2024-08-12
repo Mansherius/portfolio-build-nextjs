@@ -34,7 +34,7 @@ function Hero() {
             <TextGenerateEffect className='text-2xl md:text-4xl text-center' words='Budding Software Engineer and Full-stack Developer'/>
             <p className='text-gray-500 sm:text-xl md:text-2xl text-center sm:max-w-[70%] md:max-w-[80%] pt-4'> As an undergraduate in Computer Science (Hons.) based in Bangalore, India,<br /> I am currently devoted to learning <span className='text-green-4 font-bold'>Full-Stack Web Dev</span></p>
             <div className='mt-[100px]'>
-              <p className='uppercase tracking-widest text-green-4 font-bold'>Let's Connect</p>
+              <p className='uppercase tracking-widest text-green-4 font-bold'>Let&apos;s Connect</p>
               <div className='flex justify-around items-center gap-[2rem] my-4'>
                 <a href='https://www.linkedin.com/in/mansherius' target='_blank' rel='noreferrer'>
                   <div className={`${styles.icon} ${styles['icon-linkedin']}`}>

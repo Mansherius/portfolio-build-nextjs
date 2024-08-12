@@ -15,10 +15,10 @@ const FooterPortfolio = () => {
         </div>
         <div className='relative flex flex-col items-center z-10'> 
             <h1 className='sm:text-4xl md:text-5xl lg:max-w-[45vw] uppercase tracking-widest text-green-4 font-bold'>
-                Let's Connect
+                Let&apos;s Connect
             </h1>
             <p className='font-bold text-lg text-center p-8'>
-                Reach out today and let's discuss how I can help you with your next project.
+                Reach out today and let&apos;s discuss how I can help you with your next project.
             </p>
             <div className='flex justify-around items-center gap-[2rem] my-4'>
                 <a href='https://www.linkedin.com/in/mansherius' target='_blank' rel='noreferrer'>

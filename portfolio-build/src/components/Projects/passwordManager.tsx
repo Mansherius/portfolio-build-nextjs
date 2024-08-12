@@ -79,7 +79,7 @@ function PassData() {
 					while SQLite serves as the database for storing user credentials and
 					related data. The application includes custom cryptographic
 					implementations, using RSA for secure communication and Schnorr
-					signatures for user verification. Flask's application context is also
+					signatures for user verification. Flask&apos;s application context is also
 					utilized to manage database connections efficiently, ensuring the
 					smooth operation of the system.
 				</p>

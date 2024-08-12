@@ -18,7 +18,7 @@ function TravelData() {
 						<span className="font-bold text-neutral-700 dark:text-white">
 							During the middle of my internship at Zool Tech, A team of interns
 							and I decided to take on a project to build a fully functional
-							travel website "Planorama"{" "}
+							travel website &quot;Planorama&quot;{" "}
 						</span>
 						The idea was to build a travel website that would help users plan
 						their trips by providing them with a list of destinations, hotels,
@@ -40,7 +40,7 @@ function TravelData() {
 					</h1>
 					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
 						<span className="font-bold text-neutral-700 dark:text-white">
-							The Project's client side is being built using Next.js and
+							The Project&apos;s client side is being built using Next.js and
 							Tailwind CSS.{" "}
 						</span>
 						It will be a multi-page responsive web app that contains both a
@@ -86,12 +86,12 @@ function TravelData() {
 					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
 						<span className="font-bold text-neutral-700 dark:text-white">
 							As we are currently on the third iteration of our project, it
-							doesn't look like it is going to be complete anytime soon.{" "}
+							doesn&apos;t look like it is going to be complete anytime soon.{" "}
 						</span>
 						We are constantly updating the application to reflect our vision and
 						our latest conversations and planning have resulted in us starting
 						from the beginning and re-using many of the components to build a
-						better web app than it's predescessor.
+						better web app than it&apos;s predescessor.
 					</p>
 				</div>
 			</div>

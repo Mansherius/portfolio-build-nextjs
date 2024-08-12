@@ -4,8 +4,6 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import styles from './Icons.module.css';
-import Link from 'next/link';
-
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -94,7 +92,7 @@ const Navbar = () => {
               </li>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-green-4 font-bold'>Let's Connect</p>
+              <p className='uppercase tracking-widest text-green-4 font-bold'>Let&apos;s Connect</p>
               <div className='flex sm:justify-around md:justify-evenly md:mx-auto items-center gap-[2rem] my-4'>
               <a href='https://www.linkedin.com/in/mansherius' target='_blank' rel='noreferrer'>
                   <div className={`${styles.icon} ${styles['icon-linkedin']}`}>
