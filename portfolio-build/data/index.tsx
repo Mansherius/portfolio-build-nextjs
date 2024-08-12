@@ -34,7 +34,7 @@ export const workExperience = [
       id: 2,
       title: "Independant Software Contractor",
       desc: "Worked on Wet.ink, Ed-tech learning platform. Primary focus was back-end testing and database-site integration, resulting in a smooth shift in the platform's architecture.",
-      company: "",
+      company: "Monadic Inc.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
