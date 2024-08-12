@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import AboutBento from "@/components/AboutBento";
 import ProjectCarousel from "@/components/ProjectCarousel";
 import Experience from "@/components/Experience";
+import FooterPortfolio from "@/components/FooterPortfolio";
 
 export default function Home() {
   return (
@@ -15,8 +16,8 @@ export default function Home() {
       <ProjectCarousel />
       <div className="pt-10" id="experience"/>
       <Experience />
-      <div id="resume"/>
-      <div id="Contact"/>
+      <div className="" id="contact"/>
+      <FooterPortfolio />
     </div>
   );
 }

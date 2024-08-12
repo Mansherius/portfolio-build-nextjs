@@ -116,7 +116,7 @@ const Navbar = () => {
                 </a>
               </div>
             </div>
-            <p className='text-sm'>© 2024 Mansher Singh. All rights reserved</p>
+            <p className='text-sm'>Copyright © 2024 Mansher Singh. All rights reserved</p>
           </div>
         </div>
       </div>
