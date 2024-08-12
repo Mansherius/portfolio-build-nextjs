@@ -7,25 +7,31 @@ const Experience = () => {
 	const [buttonText, setButtonText] = useState("Download My Resume");
 
 	const handleDownloadResume = () => {
-		// Change button text to indicate the download is in progress
 		setButtonText("Downloading...");
-
-		// Simulate the download
-		const link = document.createElement("a");
-		link.href = "/assets/Resume.pdf";    
-		link.download = "MansherSingh_Resume.pdf";
-		document.body.appendChild(link);
-		link.click();
-		document.body.removeChild(link);
-
-		// Change the text to "Downloaded" after a short delay, then reset it
-		setTimeout(() => {
-			setButtonText("Downloaded!");
-			setTimeout(() => {
-				setButtonText("Download My Resume");
-			}, 2000); // Display "Downloaded" for 2 seconds
-		}, 1000); // Wait 1 second to simulate download before showing "Downloaded"
+	
+		// Fetch the file and rename it
+		fetch("/assets/Resume.pdf")
+			.then((response) => response.blob())
+			.then((blob) => {
+				const link = document.createElement("a");
+				const url = URL.createObjectURL(blob);
+				link.href = url;
+				link.download = "MansherSingh_Resume.pdf"; // Desired file name
+				document.body.appendChild(link);
+				link.click();
+				document.body.removeChild(link);
+				URL.revokeObjectURL(url);
+	
+				// Change the text to "Downloaded" after a short delay, then reset it
+				setTimeout(() => {
+					setButtonText("Downloaded!");
+					setTimeout(() => {
+						setButtonText("Download My Resume");
+					}, 2000);
+				}, 1000);
+			});
 	};
+	
 
 	return (
 		<div className="py-20 p-12">
