@@ -4,6 +4,8 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaEnvelope, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import styles from './Icons.module.css';
+import Link from 'next/link';
+
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -37,7 +39,7 @@ const Navbar = () => {
   return (
     <div className='w-full h-20 z-[100] sticky top-8'>
       <div className='flex justify-between items-center h-full px-4 bg-black-100 shadow-lg shadow-green-3 rounded-full m-4'>
-        <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
+        <Image src='/logoLeo.png' alt='logo' width={50} height={50} onClick={() => scrollToSection('home')} />
         <div>
           <ul className='hidden md:flex'>
             <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('home')}>
@@ -65,7 +67,7 @@ const Navbar = () => {
       <div className={showMenu ? 'fixed inset-0 bg-black/70 md:hidden' : ''}>
         <div className={showMenu ? `fixed left-0 top-0 h-screen ${backgroundColorClass} p-4 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 h-screen bg-transparent p-4 ease-in-out duration-1000 transform -translate-x-full`}>
           <div className='flex w-full justify-between items-center'>
-            <Image src='/logoLeo.png' alt='logo' width={50} height={50} />
+            <Image src='/logoLeo.png' alt='logo' width={50} height={50} onClick={() => scrollToSection('home')} />
             <div onClick={handleNav} className='rounded-full shadow-lg p-3 cursor-pointer'>
               <AiOutlineClose size={25} />
             </div>
