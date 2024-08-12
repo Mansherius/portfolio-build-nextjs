@@ -1,8 +1,8 @@
 import { cn } from "@/utils/cn";
-import IconCloud from "./IconCloud";
 import { slugs } from "../../../data/index";
 import { VelocityScroll } from "./VelocityScroll";
 import { useState } from "react"; // Import useState for managing button text state
+import IconCloud from "./IconCloud";
 
 export const BentoGrid = ({
 	className,
