@@ -36,7 +36,7 @@ const Experience = () => {
 	return (
 		<div className="py-20 p-12">
 			<div className="flex justify-center">
-				<h1 className="sm:text-4xl md:text-5xl tracking-wider font-bold text-neutral-200 font-sans px-4">
+				<h1 className="sm:text-4xl md:text-5xl text-center tracking-wider font-bold text-neutral-200 font-sans px-4">
 					My <span className=" text-green-4">Experience</span>
 				</h1>
 			</div>
