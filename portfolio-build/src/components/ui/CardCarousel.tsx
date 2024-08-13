@@ -93,7 +93,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 			value={{ onCardClose: handleCardClose, currentIndex }}
 		>
 			<div className="relative w-full">
-				<div className="flex justify-end gap-2 px-4">
+				<div className="flex justify-end gap-2 px-4 pb-2">
 					<button
 						className="relative z-40 h-10 w-10 rounded-full bg-green-4 flex items-center justify-center disabled:opacity-50"
 						onClick={scrollLeft}

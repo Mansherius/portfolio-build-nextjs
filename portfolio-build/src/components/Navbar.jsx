@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='w-full h-20 z-[100] sticky top-8'>
+    <div className='w-full h-20 z-[100] sticky top-2'>
       <div className='flex justify-between items-center h-full px-4 bg-black-100 shadow-lg shadow-green-3 rounded-full m-4'>
         <Image src='/logoLeo.png' alt='logo' width={50} height={50} onClick={() => scrollToSection('home')} />
         <div>

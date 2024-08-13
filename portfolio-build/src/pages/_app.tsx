@@ -15,6 +15,7 @@ export default function MyApp({ Component, pageProps }: any) {
 			<Head>
 				<title>Mansher Singh | Portfolio</title>
 				<meta name="description" content="Generated using Next.js" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link rel="icon" href="/logoLeo.png" />
 			</Head>
 			<div className="w-full bg-black-100">
