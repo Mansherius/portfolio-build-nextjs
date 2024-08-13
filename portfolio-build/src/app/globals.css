@@ -3,25 +3,19 @@
 @tailwind utilities;
 
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
-    --foreground-light: rgb(0, 0, 0);
-    --foreground-dark: rgb(255, 255, 255);
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --foreground-rgb: 255, 255, 255;
-      --background-start-rgb: 0, 0, 0;
-      --background-end-rgb: 0, 0, 0;
-    }
-  }
-  
-  body {
-    color: rgb(var(--foreground-rgb));
-    background: #000319;
-  }
+  /* Force dark mode */
+  --foreground-rgb: 255, 255, 255; /* White text */
+  --background-start-rgb: 0, 0, 0; /* Black background */
+  --background-end-rgb: 0, 0, 0;   /* Black background */
+  --foreground-light: rgb(255, 255, 255); /* White text */
+  --foreground-dark: rgb(0, 0, 0); /* Black text */
+}
+
+body {
+  background: rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground-rgb));
+}
+
   
   @layer utilities {
     .text-balance {
