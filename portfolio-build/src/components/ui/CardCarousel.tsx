@@ -211,7 +211,7 @@ export const Card = ({
 							className="max-w-5xl mx-auto items-center h-fit z-[60] pt-20 mb-10 p-4 md:p-10 rounded-3xl font-sans relative"
 						>
 							<button
-								className="sticky top-4 h-10 w-10 right-0 ml-auto bg-green-4 rounded-full flex items-center justify-center"
+								className="sticky top-4 h-10 w-10 right-0 ml-auto bg-green-4 rounded-full flex items-center justify-center z-50"
 								onClick={handleClose}
 							>
 								<IconX className="h-7 w-7 text-black-100" />

@@ -13,11 +13,14 @@ export default function ProjectCarousel() {
 
 	return (
 		<div className="w-full h-full">
-			<div className="flex justify-center py-20">
+			<div className="flex justify-center pt-20 pb-10">
 				<h1 className="sm:text-4xl md:text-5xl tracking-wider font-bold text-neutral-200 font-sans px-4">
 					Some of my <span className=" text-green-4">Projects</span>
 				</h1>
 			</div>
+			<p className="sm:text-xl md:text-2xl tracking-wide font-semibold text-neutral-400 font-sans p-2 text-center">
+					Click on the cards to view project details!
+				</p>
 			<Carousel items={cards}/>
 		</div>
 	);
