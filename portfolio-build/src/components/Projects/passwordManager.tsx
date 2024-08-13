@@ -14,8 +14,8 @@ function PassData() {
 				<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 					The Concept
 				</h1>
-				<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-					<span className="font-bold text-neutral-700 dark:text-white">
+				<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+					<span className="font-bold text-white">
 						The project aimed to develop a simple yet effective password manager
 						capable of securely storing and retrieving passwords for multiple
 						users.{" "}
@@ -24,7 +24,7 @@ function PassData() {
 					dashboard for each user, a database to store password details, and
 					robust encryption to protect data during transmission.
 				</p>
-				<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+				<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
 					The project was completed over 2-3 weeks in collaboration with a
 					coursemate as part of our final submission for a course on Computer
 					Security and Privacy.
@@ -40,8 +40,8 @@ function PassData() {
 				<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 					Front-end Technology
 				</h1>
-				<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-					<span className="font-bold text-neutral-700 dark:text-white">
+				<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+					<span className="font-bold text-white">
 						I leveraged Python’s DASH module to construct the front-end of the
 						multi-page website.{" "}
 					</span>
@@ -52,7 +52,7 @@ function PassData() {
 					dynamically rendered within the main app page, offering personalized
 					access to stored passwords.
 				</p>
-				<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+				<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
 					While DASH enabled rapid development and integration, its limitations
 					in flexibility and performance became apparent, highlighting the need
 					for more advanced front-end frameworks. However, at the time, this was
@@ -70,8 +70,8 @@ function PassData() {
 				<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 					Back-end Technology
 				</h1>
-				<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-					<span className="font-bold text-neutral-700 dark:text-white">
+				<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+					<span className="font-bold text-white">
 						The backend of this project is built using Flask and SQLite for
 						managing user authentication and data storage.{" "}
 					</span>
@@ -94,8 +94,8 @@ function PassData() {
 				<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 					Security Features
 				</h1>
-				<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-					<span className="font-bold text-neutral-700 dark:text-white">
+				<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+					<span className="font-bold text-white">
 						The authentication process is secured with advanced cryptographic
 						methods.{" "}
 					</span>

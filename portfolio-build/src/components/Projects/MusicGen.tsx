@@ -14,8 +14,8 @@ function MusicData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						The Concept
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							This project, initiated as part of my NLP Final, evolved into an
 							advanced music recommendation and playlist generator with a
 							custom-trained Roberta emotional classifier.{" "}
@@ -26,7 +26,7 @@ function MusicData() {
 						annotate the dataset, which became the foundation for training the
 						model.
 					</p>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
 						This collaborative project between a coursemate and I was completed
 						within 3 weeks to a month, and was our final submission for our
 						course on Natural Language and Processing.{" "}
@@ -42,8 +42,8 @@ function MusicData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						Front-end Technology
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							Currently, the project runs as a user-driven terminal program,
 							with plans to develop a full application in the future.{" "}
 						</span>
@@ -62,8 +62,8 @@ function MusicData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						Back-end Technology
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							The back-end is powered by a custom-trained Roberta transformer
 							model, with various supporting components for data processing and
 							model training.{" "}
@@ -84,8 +84,8 @@ function MusicData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						The Path Forward
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							The next step is to develop a full-fledged application that can
 							bring this project to life beyond the terminal.{" "}
 						</span>

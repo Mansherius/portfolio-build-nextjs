@@ -40,19 +40,19 @@ const Navbar = () => {
         <Image src='/logoLeo.png' alt='logo' width={50} height={50} onClick={() => scrollToSection('home')} />
         <div>
           <ul className='hidden md:flex'>
-            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('home')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 text-white hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('home')}>
               Home
             </li>
-            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('about')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 text-white hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('about')}>
               About
             </li>
-            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('projects')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 text-white hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('projects')}>
               Projects
             </li>
-            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('experience')}>
+            <li className={`ml-6 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 text-white hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('experience')}>
               Experience
             </li>
-            <li className={`ml-6 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 ${textColorClass} hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('contact')}>
+            <li className={`ml-6 mr-2 uppercase text-lg tracking-widest hover:border-b-2 border-green-3 text-white hover:transform hover:translate-y-[-2px] transition-transform duration-200`} onClick={() => scrollToSection('contact')}>
               Contact
             </li>
           </ul>
@@ -63,7 +63,7 @@ const Navbar = () => {
       </div>
 
       <div className={showMenu ? 'fixed inset-0 bg-black/70 md:hidden' : ''}>
-        <div className={showMenu ? `fixed left-0 top-0 h-screen ${backgroundColorClass} p-4 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 h-screen bg-transparent p-4 ease-in-out duration-1000 transform -translate-x-full`}>
+        <div className={showMenu ? `fixed left-0 top-0 h-screen bg-black-100 p-4 ease-in-out duration-1000 transform translate-x-0` : `fixed left-0 top-0 h-screen bg-transparent p-4 ease-in-out duration-1000 transform -translate-x-full`}>
           <div className='flex w-full justify-between items-center'>
             <Image src='/logoLeo.png' alt='logo' width={50} height={50} onClick={() => scrollToSection('home')} />
             <div onClick={handleNav} className='rounded-full shadow-lg p-3 cursor-pointer'>

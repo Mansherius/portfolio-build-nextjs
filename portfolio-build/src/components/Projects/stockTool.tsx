@@ -14,8 +14,8 @@ function StockData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						The Concept
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							This project is a Stock Prediction Tool designed to predict stock
 							prices based on historical data. It was my{" "}
 							<span className="text-green-4">First</span> project in Machine
@@ -28,10 +28,10 @@ function StockData() {
 						predict, after which the tool generates a zoomable and manipulable
 						graph displaying the predicted prices.
 					</p>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
 						The project was completed over 2 weeks and was my final submission
 						for a introductory course on Machine Learning.{" "}
-                        <span className="font-bold text-neutral-700 dark:text-white">
+                        <span className="font-bold text-white">
 							If you would like to read an in-depth explanation of my process while building, checkout the the{" "}
 							<span className="text-green-4">ReadMe</span> section of my github repository.
 						</span>
@@ -47,8 +47,8 @@ function StockData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						Front-end Technology
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							The front-end is crafted using Dash and CSS.{" "}
 						</span>
 						Dash components like dcc and html are used to create a user-friendly
@@ -58,7 +58,7 @@ function StockData() {
 						users to zoom in and out, and manipulate the display of the
 						predicted stock prices.
 					</p>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
 						While DASH enabled rapid development and integration, its
 						limitations in flexibility and performance became apparent,
 						highlighting the need for more advanced front-end frameworks.
@@ -76,8 +76,8 @@ function StockData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						Back-end Technology
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							The back-end leverages Python and scikit-learn to build the ML
 							model.{" "}
 						</span>

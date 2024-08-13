@@ -14,13 +14,18 @@
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 25, 25, 25;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #000319;
+  background: linear-gradient(
+    180deg,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  background-color: #000319; /* Fallback background color */
 }
   
   @layer utilities {

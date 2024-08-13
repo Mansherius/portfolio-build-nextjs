@@ -14,8 +14,8 @@ function TravelData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						The Concept
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							During the middle of my internship at Zool Tech, A team of interns
 							and I decided to take on a project to build a fully functional
 							travel website &quot;Planorama&quot;{" "}
@@ -38,8 +38,8 @@ function TravelData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						Front-end Technology
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							The Project&apos;s client side is being built using Next.js and
 							Tailwind CSS.{" "}
 						</span>
@@ -59,8 +59,8 @@ function TravelData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						Back-end Technology
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							The current iteration of the backend is created using Strapi.io so
 							that we haev a simple, efficient easy-to-deploy solution for
 							backend databases.{" "}
@@ -83,8 +83,8 @@ function TravelData() {
 					<h1 className="sm:text-3xl md:text-4xl tracking-wider font-bold text-white font-sans mx-auto pb-2">
 						The Path Forward
 					</h1>
-					<p className="text-neutral-600 dark:text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
-						<span className="font-bold text-neutral-700 dark:text-white">
+					<p className="text-neutral-200 text-base md:text-2xl font-sans max-w-3xl mx-auto py-1">
+						<span className="font-bold text-white">
 							As we are currently on the third iteration of our project, it
 							doesn&apos;t look like it is going to be complete anytime soon.{" "}
 						</span>
