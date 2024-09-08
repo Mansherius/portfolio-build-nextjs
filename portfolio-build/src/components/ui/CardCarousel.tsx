@@ -138,7 +138,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 									},
 								}}
 								key={"card" + index}
-								className="rounded-3xl"
+								className="rounded-3xl hover:border-green-4 border-2 border-transparent"
 							>
 								{item}
 							</motion.div>

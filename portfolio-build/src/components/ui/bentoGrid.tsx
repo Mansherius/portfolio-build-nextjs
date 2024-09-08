@@ -29,6 +29,7 @@ export const BentoGridItem = ({
 	title,
 	descriptionTop,
 	descriptionBottom,
+	descriptionBottom2,
 	img,
 	imgClassName,
 	titleClassName,
@@ -38,6 +39,7 @@ export const BentoGridItem = ({
 	title?: string | React.ReactNode;
 	descriptionTop?: string | React.ReactNode;
 	descriptionBottom?: string | React.ReactNode;
+	descriptionBottom2?: string | React.ReactNode;
 	header?: React.ReactNode;
 	id: number;
 	imgClassName?: string;
@@ -103,7 +105,7 @@ export const BentoGridItem = ({
             <VelocityScroll
             text="React.js | Next.js | Tailwind CSS | Bootstrap | Node.js | Express.js | C | Python3 | JavaScript | TypeScript | Scala | Firebase | "
             default_velocity={1}
-            className="font-display text-center text-2xl font-bold tracking-wider text-black md:text-3xl lg:text-5xl md:leading-[5rem]"
+            className="font-display text-center text-2xl font-bold tracking-wider text-neutral-300 md:text-black md:text-3xl lg:text-5xl md:leading-[5rem]"
           />
           )}
 					<div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
@@ -115,6 +117,11 @@ export const BentoGridItem = ({
 					{descriptionBottom && (
 						<div className="font-sans font-normal text-[#ffffff] text-sm md:text-xs lg:text-base z-10 py-8">
 							{descriptionBottom}
+						</div>
+					)}
+					{descriptionBottom2 && (
+						<div className="font-sans font-normal text-[#ffffff] text-sm md:text-xs lg:text-base z-10">
+							{descriptionBottom2}
 						</div>
 					)}
           {id === 5 && (

@@ -17,9 +17,10 @@ const AbouttBento = () => {
         />
         <BentoGridItem 
           id={2}
-          title="Teaching Assistant for Operating Systems '24"
+          title="Teaching Assistant - OS'24, DAA'24"
           descriptionTop=""
           descriptionBottom="In my last semester before graduating, I was the Teaching Assistant for the 'Operating Systems' course taught by Prof. Goutam Kumar Paul."
+          descriptionBottom2="I was also the Teaching Assistant for the 'Design and Analysis of Algorithms' course, taught by Prof. Sandeep Sen, in my first semester at my Post Graduate Diploma In Computer Science at Ashoka University."
           className="lg:col-span-2 md:col-span-3 md:row-span-2"
           imgClassName="opacity-50"
           titleClassName="justify-center"

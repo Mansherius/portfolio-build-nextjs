@@ -54,7 +54,7 @@ const Experience = () => {
 						key={card.id}
 						duration={Math.floor(Math.random() * 10000) + 10000}
 						borderRadius="2rem"
-						className="flex-1 text-white border-green-3"
+						className="flex-1 text-white border-green-3 cursor-default"
 					>
 						<div className="flex lg:flex-row flex-col md:p-5 lg:p-10 p-3 py-6 items-center gap-2">
 							<img
