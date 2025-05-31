@@ -5,6 +5,8 @@ import PassData from "@/components/Projects/passwordManager";
 import StockData from "@/components/Projects/stockTool";
 import MusicData from "./Projects/MusicGen";
 import TravelData from "./Projects/TravelPlanner";
+import TrackerData from "./Projects/FittTracker";
+import FoodKGProject from "./Projects/Capstone";
 
 export default function ProjectCarousel() {
 	const cards = data.map((card, index) => (
@@ -27,6 +29,20 @@ export default function ProjectCarousel() {
 }
 
 const data = [
+	{
+		category: "App Development",
+		title: "FittTracker",
+		src: "/fitt_tracker_bg.png",
+		content: <TrackerData />,
+		githubLink: "https://github.com/Mansherius/fitnessTracker",
+	},
+	{
+		category: "Capstone - Knowledge Graph",
+		title: "Food Knowledge Graph",
+		src: "/capstoneBG.png",
+		content: <FoodKGProject />,
+		githubLink: "https://github.com/Mansherius/CapstoneProject",
+	},
 	{
 		category: "Encryption and Security",
 		title: "Encrypted Password Manager",

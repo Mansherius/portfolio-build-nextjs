@@ -32,7 +32,7 @@ function Hero() {
               <Spotlight className='-top-10 -left-30 h-80vh w-50vw' fill="green"/>
               <Spotlight className='top-28 left-80 w-50vw h-80vh' fill="purple"/>
             </div>
-            <TextGenerateEffect className='text-2xl md:text-4xl text-center' words='Budding Software Engineer and Full-stack Developer'/>
+            <TextGenerateEffect className='text-2xl md:text-4xl text-center' words='Budding Software Developer and Full-stack Engineer'/>
             <p className='text-gray-500 sm:text-xl md:text-2xl text-center sm:max-w-[70%] md:max-w-[80%] pt-4'> As an undergraduate in Computer Science (Hons.) based in Bangalore, India,<br /> I am currently devoted to learning <span className='text-green-4 font-bold'>Full-Stack Web Dev</span></p>
             <div className='mt-[100px]'>
               <p className='uppercase tracking-widest text-green-4 font-bold'>Let&apos;s Connect</p>
@@ -47,7 +47,7 @@ function Hero() {
                   <FaGithub size={25} />
                 </div>
                 </a>
-                <a href="mailto: mansherius@gmail.com" target='_blank' rel='noreferror'>
+                <a href="mailto: mansher.singh.2025@gmail.com" target='_blank' rel='noreferror'>
                 <div className={`${styles.icon} ${styles['icon-envelope']}`}>
                   <FaEnvelope size={24} />
                 </div>

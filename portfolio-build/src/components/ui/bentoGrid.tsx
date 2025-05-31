@@ -50,7 +50,7 @@ export const BentoGridItem = ({
 	const [buttonText, setButtonText] = useState("My Email Address"); // State for button text
 
 	const handleCopyEmail = () => {
-		navigator.clipboard.writeText("mansherius@gmail.com");
+		navigator.clipboard.writeText("mansher.singh.2025@gmail.com");
 		setButtonText("Email copied!");
 		setTimeout(() => setButtonText("My Email Address"), 3000); // Reset button text after 3 seconds
 	};

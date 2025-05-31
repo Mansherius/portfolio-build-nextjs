@@ -49,8 +49,8 @@ const AbouttBento = () => {
         />
         <BentoGridItem 
           id={4}
-          title="Building a Health and Fitness Tracker for Android"
-          descriptionTop="Upcoming Projects"
+          title="Building a Fitness Tracker for IOS"
+          descriptionTop="Ongoing Projects"
           className="lg:col-span-3 md:col-span-3 md:row-span-2"
           imgClassName="absolute right-0 bottom-0 md:w-[60%] w-60"
           titleClassName="justify-center md:justify-start lg:justify-center"
