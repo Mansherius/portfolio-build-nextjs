@@ -52,11 +52,11 @@ function Hero() {
                   <FaEnvelope size={24} />
                 </div>
                 </a>
-                <a href='https://leetcode.com/mansherius/' target='_blank' rel='noreferrer'>
+                {/* <a href='https://leetcode.com/mansherius/' target='_blank' rel='noreferrer'>
                 <div className={`${styles.icon} ${styles['icon-leet']}`}>
                   <SiLeetcode size={25} />
                 </div>
-                </a>
+                </a> */}
               </div>
             </div>
         </div>
